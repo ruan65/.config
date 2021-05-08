@@ -1,0 +1,8 @@
+let mapleader = ","
+set cursorline
+set scrolloff=5
+set number relativenumber
+
+inoremap jj <esc>
+cnoremap jj <C-C>
+onoremap jj <esc>
