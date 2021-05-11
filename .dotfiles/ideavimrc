@@ -1,4 +1,4 @@
-let mapleader = ","
+let mapleader = " "
 set cursorline
 set scrolloff=5
 set number relativenumber
@@ -6,3 +6,5 @@ set number relativenumber
 inoremap jj <esc>
 cnoremap jj <C-C>
 onoremap jj <esc>
+inoremap ;; <C-o>A;
+

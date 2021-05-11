@@ -73,6 +73,7 @@ map <leader>k :wincmd k <CR>
 map <leader>l :wincmd l <CR>
 
 inoremap jj <esc>
+inoremap ;; <C-o>A;
 cnoremap jj <C-C>
 onoremap jj <esc>
 
