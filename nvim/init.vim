@@ -73,9 +73,13 @@ map <leader>k :wincmd k <CR>
 map <leader>l :wincmd l <CR>
 
 inoremap jj <esc>
-inoremap ;; <C-o>A;
 cnoremap jj <C-C>
 onoremap jj <esc>
+
+inoremap ;; <C-o>A;<esc>
+nnoremap <leader>; A;<esc>
+nnoremap <leader>l o<esc>
+nnoremap <leader>L O<esc>
 
 let g:dart_format_on_save = 1
 let g:dartfmt_options = ['--fix', '--line-length 80']
