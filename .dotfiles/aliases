@@ -1,0 +1,17 @@
+
+alias ll='ls -lah'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gp='git push'
+alias gb='git branch -a'
+alias gch='git checkout'
+alias gl='git log --oneline'
+alias gconfg='git config --global user.email "ruan65@gmail.com" && git config --global user.name "Andreyka"'
+alias gconfl='git config user.email "ruan65@gmail.com" && git config user.name "Andreyka"'
+alias studio="open -a /Applications/Android\ Studio.app"
+
+alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
+
+# Flutter
+alias brb='flutter pub run build_runner build'
+alias brbd='flutter pub run build_runner build --delete-conflicting-outputs'
