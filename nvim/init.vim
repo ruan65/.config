@@ -40,7 +40,7 @@ syntax on
 
 
 " settings
-set cursorline
+"set cursorline
 set scrolloff=5
 
 set noerrorbells                                              " Don't add sounds for errors
