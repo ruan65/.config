@@ -66,6 +66,7 @@ let mapleader = " "
 map <silent> <C-n> :NERDTreeToggle<CR>
 " Commenting
 nnoremap cl 0i// <ESC>j
+nnoremap ul 03x <ESC>j
 
 nnoremap <leader>fe :CocCommand flutter.emulators <CR>
 nnoremap <leader>fd :below new output:///flutter-dev <CR>
