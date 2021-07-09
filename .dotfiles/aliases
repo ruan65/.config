@@ -11,6 +11,8 @@ alias studio="open -a /Applications/Android\ Studio.app"
 
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 
+alias rpr='function _rpr() {git fetch origin refs/pull-requests/"$1"/from:pr-"$1" && git checkout pr-"$1"};_rpr'
+
 # Flutter
 alias brb='flutter pub run build_runner build'
 alias brbd='flutter pub run build_runner build --delete-conflicting-outputs'
