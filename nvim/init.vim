@@ -28,6 +28,7 @@ Plug 'natebosch/dartlang-snippets'
 Plug 'tpope/vim-projectionist'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-commentary'
 
 " Dart
 Plug 'dart-lang/dart-vim-plugin'
@@ -53,7 +54,9 @@ set nobackup
 set undodir=~/AppData/Local/nvim-data/backup
 set undofile
 set incsearch
+set expandtab
 set tabstop=2
+set shiftwidth=2
 set softtabstop=0 noexpandtab
 set shiftwidth=2
 set colorcolumn=80
@@ -79,6 +82,7 @@ cnoremap jj <C-C>
 onoremap jj <esc>
 
 inoremap ;; <C-o>A;<esc>
+inoremap ,, <C-o>A,<esc>
 nnoremap <leader>; A;<esc>
 nnoremap <leader>l o<esc>
 nnoremap <leader>L O<esc>
