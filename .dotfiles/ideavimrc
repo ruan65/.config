@@ -8,6 +8,7 @@ cnoremap jj <C-C>
 onoremap jj <esc>
 
 inoremap ;; <C-o>A;<esc>
+inoremap ,, <C-o>A,<esc>
 nnoremap <leader>; A;<esc>
 nnoremap <leader>l o<esc>
 nnoremap <leader>L O<esc>

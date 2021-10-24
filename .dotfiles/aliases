@@ -14,6 +14,7 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 # Flutter
 alias brb='flutter pub run build_runner build'
 alias brbd='flutter pub run build_runner build --delete-conflicting-outputs'
+alias flutter='~/soft/flutter/bin/flutter'
 
 # run tmux vim env in dir
 

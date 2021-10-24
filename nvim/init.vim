@@ -83,6 +83,7 @@ onoremap jj <esc>
 
 inoremap ;; <C-o>A;<esc>
 inoremap ,, <C-o>A,<esc>
+inoremap {{ <C-o>A{}<left>
 nnoremap <leader>; A;<esc>
 nnoremap <leader>l o<esc>
 nnoremap <leader>L O<esc>
@@ -157,3 +158,4 @@ let g:coc_global_extensions = [
   \ ]
 
 let g:NERDTreeGitStatusWithFlags = 1
+" let g:NERDTreeWinSize=50
