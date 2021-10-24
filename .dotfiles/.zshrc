@@ -5,7 +5,8 @@ export EDITOR='nvim'
 # other aliases are here
 source $HOME/.config/.dotfiles/aliases
 
-export PATH=$PATH:/Users/ar/soft/flutter/bin
+export PATH=$PATH:$HOME/soft/flutter/bin
+export PATH=$PATH:$HOME/soft/flutter/bin/cache/dart-sdk/bin
 export PATH=$PATH:$HOME/.pub-cache/bin
 
 # set brew installed python as default

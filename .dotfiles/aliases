@@ -16,6 +16,7 @@ alias rpr='function _rpr() {git fetch origin refs/pull-requests/"$1"/from:pr-"$1
 # Flutter
 alias brb='flutter pub run build_runner build'
 alias brbd='flutter pub run build_runner build --delete-conflicting-outputs'
+alias flutter='~/soft/flutter/bin/flutter'
 
 # run tmux vim env in dir
 
