@@ -9,6 +9,7 @@ alias gconfg='git config --global user.email "ruan65@gmail.com" && git config --
 alias gconfl='git config user.email "ruan65@gmail.com" && git config user.name "Andreyka"'
 alias studio="open -a /Applications/Android\ Studio.app"
 
+alias python='python3'
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC'
 
 alias rpr='function _rpr() {git fetch origin refs/pull-requests/"$1"/from:pr-"$1" && git checkout pr-"$1"};_rpr'
