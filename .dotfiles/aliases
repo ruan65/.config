@@ -27,3 +27,4 @@ tmux split-w -h -t vim
 tmux send -t 'vim:1.1' 'vim .' Enter
 tmux attach -t vim
 "
+alias ip='ifconfig en1 | awk "/inet /{print \$2}"'

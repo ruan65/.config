@@ -15,3 +15,5 @@ export PATH=$PATH:$HOME/.pub-cache/bin
 #fi
 #PATH=$(pyenv root)/shims:$PATH
 autoload -Uz compinit && compinit
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export PATH="~/Library/Android/sdk/platform-tools$:$PATH"
